@@ -16,12 +16,11 @@
 # Configuration for OpenJdk repository
 ---
 repository_root: "https://download.run.pivotal.io/openjdk/lucid/x86_64"
-version: 1.7.0_+
+version: 1.8.0_+
 memory_sizes:
-  permgen: 64m..
+  metaspace: 64m..
 memory_heuristics:
   heap: 75
-  permgen: 10
+  metaspace: 10
   stack: 5
   native: 10
-  
